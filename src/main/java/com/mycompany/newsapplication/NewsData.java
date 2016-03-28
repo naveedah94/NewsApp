@@ -1,5 +1,5 @@
 
-package newsapp;
+package com.mycompany.newsapplication;
 
 public class NewsData {
     public String heading;

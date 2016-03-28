@@ -1,5 +1,5 @@
 
-package newsapp;
+package com.mycompany.newsapplication;
 
 import java.util.ArrayList;
 
@@ -7,7 +7,7 @@ public class NewsApp {
     
     public static void main(String[] args) {
         GetNewsFromSource getNews = new GetNewsFromSource();
-        ArrayList<NewsData> allNews = new ArrayList<NewsData>();
+        ArrayList<NewsData> allNews;
         URL url = new URL();
         allNews = getNews.getNews(url.getUrlEng());
         int counter = 1;

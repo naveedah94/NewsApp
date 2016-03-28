@@ -1,5 +1,5 @@
 
-package newsapp;
+package com.mycompany.newsapplication;
 
 import java.io.IOException;
 import java.util.ArrayList;
